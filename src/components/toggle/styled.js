@@ -68,9 +68,11 @@ export const StyledMenu = styled.nav`
   a {
     &:first-child {
       font-size: 13px;
-      /* position:absolute; */
       color: #fa6980;
       top: 40px;
+    }
+    :nth-child(2) {
+      margin-top: 20px;
     }
     font-size: 2rem;
     text-transform: uppercase;
@@ -102,12 +104,12 @@ export const MobileFooter = styled.div`
   width: 100%;
   height: 310px;
   background-color: #a6adb4;
-  flex-direction:column;
-  justify-content:center;
+  flex-direction: column;
+  justify-content: center;
 
   div {
-  display: flex;
-  flex-direction:row;
+    display: flex;
+    flex-direction: row;
 
     ul {
       margin-right: 20px !important;
